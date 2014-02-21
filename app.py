@@ -7,6 +7,8 @@ app.config.update(
     DEBUG = True,
 )
 
+app.config["SECRET_KEY"] = "2FsB\xda\x0frx18!rx17;a\xbd42A\xbbYx#h\x9e7\xf2"
+
 # controllers
 @app.route('/favicon.ico')
 def favicon():

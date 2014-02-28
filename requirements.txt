@@ -10,3 +10,5 @@ itsdangerous==0.23
 mongoengine==0.8.7
 pymongo==2.6.3
 wsgiref==0.1.2
+flask-login==0.2.9
+flask-openid==1.2.1

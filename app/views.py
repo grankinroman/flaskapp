@@ -2,7 +2,6 @@
 
 from app import app
 from flask import render_template, flash, redirect, request
-from forms import LoginForm
 
 #----------------------------------------
 # controllers
@@ -19,6 +18,12 @@ def page_not_found(e):
 @app.route('/index')
 def index():
     return render_template('index.html')
+
+@app.route('/login')
+def login():
+    return render_template('index.html')
+
+
 
 
 
